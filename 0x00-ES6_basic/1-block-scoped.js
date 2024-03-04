@@ -3,8 +3,8 @@ export default function taskBlock(trueOrFalse) {
   const task2 = true;
 
   if (trueOrFalse) {
-    const task = true;
-    const task2 = false;
+    const task = true; // enable next line.
+    const task2 = false; // disable next line.
   }
 
   return [task, task2];
