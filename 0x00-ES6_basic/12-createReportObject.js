@@ -1,5 +1,5 @@
 export default function createReportObject(employeesList) {
-  retrun {
+  return {
     allEmployees: {
       ...employeesList,
     },
