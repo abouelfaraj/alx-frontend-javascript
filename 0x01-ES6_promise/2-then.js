@@ -1,5 +1,5 @@
 /* eslint-disable */
-export default function handelReponseFromAPI(success) {
+export default function handelReponseFromAPI(promise) {
   return promise
     .then(() => ({ status: 200, body: 'success' }))
     .catch(() => new Error())
