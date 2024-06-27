@@ -13,7 +13,7 @@ export default class Pricing {
   }
 
   get amount() {
-    return this._name;
+    return this._amount;
   }
 
   get currency() {
