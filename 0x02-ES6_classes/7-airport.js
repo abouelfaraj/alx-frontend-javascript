@@ -1,4 +1,4 @@
-class Airport {
+export default class Airport {
   constructor(name, code) {
     if (typeof name !== 'string') {
       throw new TypeError('');
