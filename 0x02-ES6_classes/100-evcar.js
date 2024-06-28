@@ -9,5 +9,6 @@ class EVCar extends Car{
   static get [Symbol.species]() {
     return Car;
   }
-export default EVCAR;
 }
+
+export default EVCar;
